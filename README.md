@@ -1,38 +1,108 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
 
-## Getting Started
+<img alt="Sliyp Website" src=".github/banner.svg" width="100%">
 
-First, run the development server:
+TypeScript
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+<br>
+
+[![Next.js](https://img.shields.io/badge/Next.js-13.2-0B3D6B?style=for-the-badge&labelColor=08263F)](https://nextjs.org) [![React](https://img.shields.io/badge/React-18.2-1565A0?style=for-the-badge&labelColor=08263F)](https://react.dev) [![TypeScript](https://img.shields.io/badge/TypeScript-5.3-0EA5E9?style=for-the-badge&labelColor=08263F)](https://www.typescriptlang.org) [![Tailwind](https://img.shields.io/badge/Tailwind-3.3-0B3D6B?style=for-the-badge&labelColor=08263F)](https://tailwindcss.com)
+
+![language](https://img.shields.io/badge/language-62-1565A0?style=flat-square&labelColor=08263F) ![updated](https://img.shields.io/badge/updated-false-0B3D6B?style=flat-square&labelColor=08263F)
+
+</div>
+
+---
+
+## What this is
+
+TypeScript
+
+The code is laid out as:
+
+- `components/` — UI components
+- `public/` — static assets
+- `pages/` — pages
+- `styles/` — stylesheets
+
+<div align="center">
+
+|  |  |  |
+|:--:|:--:|:--:|
+| **2** | **7** | **1** |
+| pages | components | docs |
+
+</div>
+
+---
+
+## Architecture
+
+```mermaid
+flowchart TB
+    U["Browser"]
+    P["Pages · 1"]
+    U --> P
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<sub>Derived from the directories present in this repository.</sub>
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+---
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## Surfaces
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+**Routes** (1)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+|  |  |  |
+|---|---|---|
+| `/index` |  |  |
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+| Layer | Choice |
+|---|---|
+| [Next.js](https://nextjs.org) | v13.2 |
+| [React](https://react.dev) | v18.2 |
+| [TypeScript](https://www.typescriptlang.org) | v5.3 |
+| [Tailwind](https://tailwindcss.com) | v3.3 |
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## Getting started
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+git clone https://github.com/gowtham-creator/SLiYP-version-1.0.git
+cd SLiYP-version-1.0
+npm install
+npm run dev
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Scripts
+
+| Command | Runs |
+|---|---|
+| `npm run dev` | `next dev` |
+| `npm run start` | `next start` |
+| `npm run build` | `next build` |
+| `npm run lint` | `next lint` |
+
+---
+
+## Project structure
+
+| Path | Contents | Files |
+|---|---|---|
+| `components/` | UI components | 7 |
+| `public/` | static assets | 4 |
+| `pages/` | pages | 2 |
+| `styles/` | stylesheets | 1 |
+
+<sub>22 tracked files in total.</sub>
+
+---
+
+<div align="center">
+<sub><a href="https://github.com/gowtham-creator/SLiYP-version-1.0">gowtham-creator/SLiYP-version-1.0</a></sub>
+</div>
