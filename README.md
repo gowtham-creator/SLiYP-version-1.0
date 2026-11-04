@@ -2,13 +2,13 @@
 
 <img alt="Sliyp Website" src=".github/banner.svg" width="100%">
 
-TypeScript
+First version of the SliYP website as a Next.js Pages Router app, with a shared layout and header across components, pages and styles.
 
 <br>
 
 [![Next.js](https://img.shields.io/badge/Next.js-13.2-0B3D6B?style=for-the-badge&labelColor=08263F)](https://nextjs.org) [![React](https://img.shields.io/badge/React-18.2-1565A0?style=for-the-badge&labelColor=08263F)](https://react.dev) [![TypeScript](https://img.shields.io/badge/TypeScript-5.3-0EA5E9?style=for-the-badge&labelColor=08263F)](https://www.typescriptlang.org) [![Tailwind](https://img.shields.io/badge/Tailwind-3.3-0B3D6B?style=for-the-badge&labelColor=08263F)](https://tailwindcss.com)
 
-![language](https://img.shields.io/badge/language-62-1565A0?style=flat-square&labelColor=08263F) ![updated](https://img.shields.io/badge/updated-false-0B3D6B?style=flat-square&labelColor=08263F)
+![language](https://img.shields.io/badge/language-TypeScript-1565A0?style=flat-square&labelColor=08263F) ![updated](https://img.shields.io/badge/updated-2026--11--04-0B3D6B?style=flat-square&labelColor=08263F)
 
 </div>
 
@@ -16,7 +16,7 @@ TypeScript
 
 ## What this is
 
-TypeScript
+Version 1.0 of the SliYP website, built as a Next.js Pages Router application (`sliyp_website` in package.json) with a shared `Layout` wrapper in `_app.tsx` and a `Header` component. Later superseded by the hand-written SCSS site.
 
 The code is laid out as:
 
